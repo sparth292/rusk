@@ -1,5 +1,6 @@
 # Installation
 The first step is to install Rust. 
+(If you use ubuntu you are lucky coz you can just copy paste my andha dhundh file to install rust in your device)
 We’ll download Rust through rustup, a command line tool for managing Rust versions and associated tools. 
 You’ll need an internet connection for the download.(Internet Chahiye ;( )
 
@@ -85,4 +86,3 @@ $ cargo new get-dependencies
 $ cd get-dependencies
 $ cargo add rand@0.8.5 trpl@0.2.0
 This will cache the downloads for these packages so you will not need to download them later. Once you have run this command, you do not need to keep the get-dependencies folder. If you have run this command, you can use the --offline flag with all cargo commands in the rest of the book to use these cached versions instead of attempting to use the network.
-
