@@ -39,7 +39,8 @@ $ xcode-select --install
 
 Linux users should generally install GCC or Clang, according to their distribution’s documentation. For example, if you use Ubuntu, you can install the build-essential package.
 
-Installing rustup on Windows
+## Installing rustup on Windows
+
 On Windows, go to https://www.rust-lang.org/tools/install and follow the instructions for installing Rust. At some point in the installation, you’ll be prompted to install Visual Studio. This provides a linker and the native libraries needed to compile programs. If you need more help with this step, see https://rust-lang.github.io/rustup/installation/windows-msvc.html
 
 The rest of this book uses commands that work in both cmd.exe and PowerShell. If there are specific differences, we’ll explain which to use.
@@ -64,7 +65,7 @@ In Linux and macOS, use:
 $ echo $PATH
 If that’s all correct and Rust still isn’t working, there are a number of places you can get help. Find out how to get in touch with other Rustaceans (a silly nickname we call ourselves) on the community page.
 
-Updating and Uninstalling
+## Updating and Uninstalling of rust
 Once Rust is installed via rustup, updating to a newly released version is easy. From your shell, run the following update script:
 
 $ rustup update
@@ -79,7 +80,8 @@ Any time a type or function is provided by the standard library and you’re not
 Text Editors and Integrated Development Environments
 This book makes no assumptions about what tools you use to author Rust code. Just about any text editor will get the job done! However, many text editors and integrated development environments (IDEs) have built-in support for Rust. You can always find a fairly current list of many editors and IDEs on the tools page on the Rust website.
 
-Working Offline with This Book
+## Working Offline with This Book
+
 In several examples, we will use Rust packages beyond the standard library. To work through those examples, you will either need to have an internet connection or to have downloaded those dependencies ahead of time. To download the dependencies ahead of time, you can run the following commands. (We’ll explain what cargo is and what each of these commands does in detail later.)
 
 $ cargo new get-dependencies
