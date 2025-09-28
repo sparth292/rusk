@@ -14,6 +14,4 @@
 fn main() {
      let mut x = 19;
      println!("{x}");
-     x = 10;
-     println!("{x}");
 }
