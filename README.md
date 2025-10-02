@@ -1,1 +1,1 @@
-JavaScript aur TypeScript pasand nhi isiliye Rust kar raha hoon
+JavaScript aur TypeScript pasand nhi isiliye Rust seekh raha hoon
